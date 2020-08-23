@@ -35,9 +35,11 @@ body {
 .Black.active {
   background-color: #333;
 }
-@media (max-width: 300px) and (orientation: portrait) {
+@media (max-device-width: 1800px) and (orientation: portrait) {
   body {
-    width: 50%;
+    width: 100%;
+    height: 30%;
+    margin-top: 800px;
     transform: rotate(-90deg);
   }
 }
