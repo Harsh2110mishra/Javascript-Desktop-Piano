@@ -38,5 +38,6 @@ body {
 @media (max-width: 800px) and (orientation: portrait) {
   body {
     width: 50%;
+    transform: rotate(-90deg);
   }
 }
